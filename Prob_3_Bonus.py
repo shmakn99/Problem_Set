@@ -58,7 +58,7 @@ def merger(a,thresh):
         for i in range(len(a)):
             fin_m[i].append(dic[i])
             
-    return(np.array(fin_m))
+    return(np.transpose(np.array(fin_m)))
     
 a=[[0.5,8],[1,8.5,5.1,20.1,20.6],[1.5,0.9,4.9,19.9,19.8]]
 
