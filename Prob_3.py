@@ -52,7 +52,7 @@ def merger(a,thresh):
                 lst.append(None)
         k+=1
                           
-    return(np.array(fin_m))
+    return(np.transpose(np.array(fin_m)))
   
     #Test Case
     
